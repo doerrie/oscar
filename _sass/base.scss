@@ -81,3 +81,16 @@ div.footer{
   padding: 5px $corner_radius 0px;
   border-radius: 0px 0px $corner_radius $corner_radius;
 }
+
+div.end{
+  float: right;
+}
+
+span.end{
+  color: white;
+  font-size: 0.75em;
+}
+
+span.unobtrusive{
+  color: darkgrey;
+}
