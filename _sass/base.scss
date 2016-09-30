@@ -1,0 +1,83 @@
+$page_width: 800px;
+$corner_radius: 25px;
+
+@mixin menu_link_style() {
+  color: black;
+  text-decoration: none;
+
+}
+
+@mixin shadow_border($color, $size){
+  text-shadow: 0px 0px white
+}
+
+
+body {
+  background-color: #60bf60;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {padding: 0px; margin: 0px; }
+h2 {padding: 0px; margin: 0px; }
+h3 {padding: 0px; margin: 0px; }
+h4 {padding: 0px; margin: 0px; }
+h5 {padding: 0px; margin: 0px; }
+h6 {padding: 0px; margin: 0px; }
+
+
+div.headspace {
+  height: 50px;
+}
+
+div.fullpane {
+  padding: 0px;
+  width: $page_width;
+  margin: 5px auto 5px;
+}
+
+div.header{
+  width: $page_width;
+  border-radius: $corner_radius $corner_radius 0px 0px;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("/images/parts.jpg");
+  background-size: $page_width;
+  background-repeat: no-repeat;
+  background-color: lightgrey;
+}
+
+div.titular{
+  padding: 2px $corner_radius 2px;
+}
+
+div.menu{
+  background-color: darkgrey;
+  padding: 2px 5px 2px;
+  text-align: right;
+}
+
+a.menu:link{  @include menu_link_style(); }
+a.menu:active{  @include menu_link_style(); }
+a.menu:visited{  @include menu_link_style(); }
+a.menu:hover{  @include menu_link_style(); }
+
+div.main_wrapper{
+  margin: 0px;
+  padding: 0px;
+  padding: $corner_radius;
+  background-color: white;
+}
+
+div.divider{
+  padding: 0px;
+  height: 2px;
+  background-color: black;
+}
+
+div.footer{
+  background-color: white;
+  padding: 5px $corner_radius 0px;
+  border-radius: 0px 0px $corner_radius $corner_radius;
+}
