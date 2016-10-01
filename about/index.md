@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-### Oscar: the StrapRap from Scrap
+### What is Oscar?
 
 Oscar is a self-bootstrapping RepRap that can be sourced almost entirely from salvage.
 The only purchased parts are the controller and the hot-end assembly.
