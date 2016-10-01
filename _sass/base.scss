@@ -71,6 +71,7 @@ div.main_wrapper{
   padding: 0px;
   padding: $corner_radius;
   background-color: white;
+  overflow: auto;
 }
 
 div.divider{
@@ -95,5 +96,16 @@ span.end{
 }
 
 span.unobtrusive{
-  color: darkgrey;
+  color: black;
+  font-size: 0.88em;
+}
+
+div.description{
+  width: 50%;
+  float: right;
+}
+
+div.home{
+  width: 50%;
+  float: left;
 }

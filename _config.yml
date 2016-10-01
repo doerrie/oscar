@@ -16,7 +16,7 @@
 title: "Oscar: The StrapRap from Scrap"
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Oscar is a self-bootstraping, self-replicating, 3D printer built almost entirely
+  Oscar is a self-bootstraping, replicating, 3D printer built almost entirely
   from salvaged parts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://oscar.doerrie.us" # the base hostname & protocol for your site
